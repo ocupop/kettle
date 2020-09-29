@@ -2,7 +2,7 @@ module.exports = {
   ci: {
     collect: {
       // collect options here
-      staticDistDir: './dist/site'
+      staticDistDir: './src/_site'
     },
     assert: {
       // assert options here

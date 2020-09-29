@@ -18,9 +18,14 @@ jobs:
         with:
           enable_cache: true
           jekyll_src: src
+      - name: setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Install Global packages
+        run: npm install -g @lhci/cli@0.4.x
       - name: run Lighthouse CI
         run: |
-          npm install -g @lhci/cli@0.3.x
           lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{secrets.LHCI_GITHUB_APP_TOKEN}}

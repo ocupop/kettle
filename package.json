@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "gulp dev",
-    "build": "jekyll build",
     "dev": "concurrently 'npm:watch-scripts' 'npm:start' ",
     "watch-scripts": "gulp scripts",
     "postinstall": "gulp dev:install"

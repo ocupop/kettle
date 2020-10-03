@@ -25,7 +25,7 @@ jobs:
           enable_cache: true
           jekyll_src: src
 
-          custom_opts: JEKYLL_ENV=production --trace --destination /dist/site
+          custom_opts: JEKYLL_ENV=production --trace --destination ./dist/site
       - name: run Lighthouse CI
         run: |
           lhci autorun

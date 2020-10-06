@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-cloudcannon-template",
+  "name": "Kettle",
   "version": "1.0.0",
-  "description": "Cloudcannon Suite Template is a starting point for sites hosted on Cloudcannon and built using Jekyll.",
+  "description": "Kettle is a deep learning to mitigate the growing risks facing the world and the insurance sector",
   "private": true,
   "repository": {
     "type": "git",

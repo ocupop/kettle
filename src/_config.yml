@@ -1,8 +1,8 @@
 # Site settings
 client:
-title: Ocupop Project Template
+title: Kettle
 email: dev@ocupop.com
-url: "http://client_url.com"
+url: "http://ourkettle.com"
 permalink: pretty
 
 # Social sharing

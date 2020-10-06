@@ -189,3 +189,22 @@
     @include animation(fadeIn, 1.3s);
   }
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-wrapper {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 6px #76767629;
+
+  .team-photo {
+  }
+  .team-bio {
+    border-top: 5px solid orange;
+    padding: 25px;
+  }
+}

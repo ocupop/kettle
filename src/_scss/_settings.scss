@@ -47,6 +47,7 @@ $cyan: #17a2b8 !default;
 
 $kettle-black-100: #1a1a1a;
 $kettle-gray-100: #f8f8f8;
+$kettle-gray-200: #4d4d4d;
 $salmon: #e96f73;
 
 $colors: () !default;
@@ -215,6 +216,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1140px,
+  xxl: 1300px,
 ) !default;
 
 // Grid columns

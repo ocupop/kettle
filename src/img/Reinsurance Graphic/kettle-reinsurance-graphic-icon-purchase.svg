@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151.38" height="153.129" viewBox="0 0 151.38 153.129">
+  <defs>
+    <filter id="Ellipse_35" x="0" y="0.211" width="151.38" height="152.918" filterUnits="userSpaceOnUse">
+      <feOffset dy="1.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#454545" flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-0.924" y1="-1.121" x2="0.864" y2="0.884" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9006e"/>
+      <stop offset="1" stop-color="#fd8677"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_241" data-name="Group 241" transform="translate(0.926)">
+    <g transform="matrix(1, 0, 0, 1, -0.93, 0)" filter="url(#Ellipse_35)">
+      <ellipse id="Ellipse_35-2" data-name="Ellipse 35" cx="66.69" cy="67.459" rx="66.69" ry="67.459" transform="translate(9 7.71)" fill="#fff"/>
+    </g>
+    <g id="Group_155" data-name="Group 155" transform="translate(0 0)">
+      <g id="Group_108" data-name="Group 108" transform="translate(0 0)">
+        <ellipse id="Ellipse_31" data-name="Ellipse 31" cx="54.526" cy="55.122" rx="54.526" ry="55.122" transform="translate(0 94.443) rotate(-60)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_168" data-name="Group 168" transform="translate(48.58 39.244)">
+        <g id="Group_150" data-name="Group 150">
+          <path id="Path_139" data-name="Path 139" d="M2164.186,4822.643H2111.2V4751.4l41.934.049,11.1,11.063Z" transform="translate(-2111.196 -4751.399)" fill="#fff" opacity="0.18" style="isolation: isolate"/>
+          <path id="Path_140" data-name="Path 140" d="M2160.988,4762.519l-11.134-.208V4751.4Z" transform="translate(-2107.997 -4751.398)" fill="#fff" opacity="0.42" style="isolation: isolate"/>
+        </g>
+        <path id="Path_141" data-name="Path 141" d="M2116.788,4751.4v15.476l9.36-3.375,9.359,3.375V4751.4Z" transform="translate(-2109.523 -4751.399)" fill="#fff"/>
+        <line id="Line_17" data-name="Line 17" x2="29.409" transform="translate(11.535 30.546)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.161" opacity="0.3"/>
+        <line id="Line_18" data-name="Line 18" x2="29.409" transform="translate(11.535 42.599)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.161" opacity="0.3"/>
+        <line id="Line_19" data-name="Line 19" x2="29.409" transform="translate(11.535 54.653)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.161" opacity="0.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

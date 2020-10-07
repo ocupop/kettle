@@ -190,6 +190,29 @@
   }
 }
 
+// Backgrounds
+
+.bg-gray {
+  background-color: $kettle-gray-100 !important;
+}
+
+.bg-black {
+  background-color: $kettle-black-100 !important;
+  color: $white !important;
+}
+
+.text-salmon {
+  color: $salmon !important;
+}
+.text-white {
+  color: $white !important;
+}
+
+.text-large {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
 .centered {
   display: flex;
   justify-content: center;

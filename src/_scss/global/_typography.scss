@@ -14,4 +14,20 @@ h5,
 p,
 a {
   @include transition();
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+p {
+  line-height: 1.62rem;
+  font-weight: 400;
+  color: $kettle-gray-200;
 }

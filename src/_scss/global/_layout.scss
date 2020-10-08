@@ -3,4 +3,37 @@
 #pageContent {
 }
 #pageFooter {
+  padding: 50px 0;
+  ul {
+    li {
+      list-style: none;
+      margin: 10px 0;
+      a {
+        color: $kettle-black-100;
+        transition: 0.2s;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+
+        &:hover {
+          color: $salmon;
+          text-decoration: none;
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 1px;
+          background: $salmon;
+          transform: translateX(-100%);
+          transition: transform 0.5s ease;
+        }
+        &:hover:before {
+          transform: translateX(0);
+        }
+      }
+    }
+  }
 }

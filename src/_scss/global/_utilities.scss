@@ -195,9 +195,8 @@
 .bg-gray {
   background-color: $kettle-gray-100 !important;
 }
-
-.bg-orange {
-  background-color: $yellow !important;
+.bg-white {
+  background-color: $white !important;
 }
 
 .bg-black {
@@ -210,6 +209,28 @@
 }
 .text-white {
   color: $white !important;
+}
+
+.btn-orange {
+  background-color: $yellow !important;
+  &:hover {
+    transform: translateY(-10px) !important;
+  }
+  &:before {
+    background: rgb(254, 169, 115) !important;
+    background: linear-gradient(
+      0deg,
+      rgba(254, 169, 115, 1) 0%,
+      rgba(233, 111, 115, 1) 26%,
+      rgba(233, 111, 115, 1) 73%,
+      rgba(254, 169, 115, 1) 100%
+    ) !important;
+    transform: translateY(-100%) !important;
+    // opacity: 1 !important;
+  }
+  &:hover:before {
+    transform: translateY(100%) !important;
+  }
 }
 
 .text-large {

@@ -23,6 +23,7 @@
             &:hover {
               color: $salmon;
               text-decoration: none;
+              background-color: $kettle-gray-100;
             }
             &:before {
               content: "";
@@ -49,7 +50,7 @@
               rgba(254, 169, 115, 1) 100%
             );
             color: $white;
-            margin-left: 20px;
+            // margin-left: 20px;
           }
           &:before {
             height: 0px !important;

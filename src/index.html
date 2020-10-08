@@ -16,7 +16,7 @@ team_member:
       <div class="col-12 col-md-6 editable">
         <h2 class="editable  my-4 pr-5">Kettle is building a better re/insurance model for balancing risk in a changing climate.</h2>
         <p class="editable my-3">Schedule a demo of our latest fire prediction model</p>
-        <a class="btn editable">Book a Demo</a>
+        <a class="btn editable" data-toggle="modal" data-target="#demoModal">Book a Demo</a>
       </div>
       <div class="col-12 col-md-6">
         <div id="comp-wrapper">
@@ -57,7 +57,7 @@ team_member:
 </section>
 
 <section class="bg-gray">
-  <div class="container p-5" id="how-reinsurance-works">
+  <div class="container p-5 mb-5" id="how-reinsurance-works">
     <div class="row">
       <div class="col-12">
         <h1 class="editable">How Reinsurance Works</h1>
@@ -113,7 +113,7 @@ team_member:
 </section>
 
 <section class="bg-black" id="kettle-technology">
-  <div class="container">
+  <div class="container pt-5">
     <div class="row centered text-center">
       <div class="col-7">
         <h1 class="editable ">We outperform the industry</h1>
@@ -151,7 +151,7 @@ team_member:
         <h2 class="editable text-salmon">Results in more accurate predictions</h2>
       </div>
     </div>
-    <div class="row centered">
+    <div class="row centered mb-5">
       <div class="col-3 centered flex-column">
         <h3 class="editable mb-0 text-large">84.6%</h3>
         <p class="editable small text-salmon">Kettle technology accuracy</p>
@@ -166,27 +166,32 @@ team_member:
 
 <section class="bg-black" style="background: url(/img/backgrounds/bg-space-top.svg); background-size: 100% auto; background-position: center bottom; background-repeat: no-repeat; ">
   <div class="container">
-    <div class="row centered">
+    <div class="row centered mb-5">
       <div class="col-12 col-md-5">
         <h1 class="editable">Predicting the California Wildfires</h1>
         <p class="editable text-white">Our latest fire prediction model is using deep learning models to clean, organize, and analyze real time data to calculate probabilities of fire damage at the 0.5 square mile across the state of California.</p>
-        <a href="" class="btn">Book a Demo</a>
+        <a href="" class="btn" data-toggle="modal" data-target="#demoModal">Book a Demo</a>
       </div>
       <div class="col-12 col-md-7">
         <div id="kettle-tablet-wrapper">
-          <!-- <img id="kettle-tablet" alt="Tablet displaying wildfire risk" src="/img/displays/kettle-tech-tablet-display.png" /> -->
+          <img id="kettle-tablet" alt="Tablet displaying wildfire risk" src="/img/displays/kettle-tech-tablet-display.png" />
         </div>
 
 
       </div>
     </div>
+    <div class="container py-5 my-5">
+
+    </div>
+
   </div>
 
 </section>
 
-<section style="background: url(/img/backgrounds/bg-space-bottom.svg); background-size: 100% auto; background-position: center top; background-repeat: no-repeat; " id="our-team">
+
+<section style="background: url(/img/backgrounds/bg-space-bottom.svg); background-size: 100% auto; background-position: center top; background-repeat: no-repeat; " id="our-team" class="bg-gray">
   <div class="container">
-    <div class="row text-center centered">
+    <div class="row text-center centered py-5">
       <div class="col-8">
         <h1 class="editable ">We better protect the world from increasing climate crises</h1>
         <p class="editable ">It is our ambition to use data to change our world for the better. To better protect our communities for the next catastrophe. And to contribute to a future where we can mitigate future catastrophes. We are showing how reinsurance can be a lever to improve our world.</p>
@@ -216,8 +221,29 @@ team_member:
     <div class="row centered">
       <div class="col-8 text-center">
         <h1 class="editable">Contact us to Schedule a demo of our fire prediction model</h1>
-        <a href="" class="btn mt-4 btn-orange">Contact Us</a>
+        <a href="" class="btn mt-4 btn-orange" data-toggle="modal" data-target="#demoModal">Contact Us</a>
       </div>
     </div>
   </div>
 </section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-labelledby="demoModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="cognito">
+          <script src="https://www.cognitoforms.com/s/bbN8iw1MJUqjPe6aHn-_rw"></script>
+          <script>Cognito.load("forms", { id: "87" });</script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

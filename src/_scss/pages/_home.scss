@@ -39,14 +39,22 @@
   padding: 40% 0;
   #kettle-tablet {
     position: absolute;
-    width: 1000px;
-    top: -110px;
-    right: -55%;
+    width: 800px;
+    top: -100px;
+    right: -50%;
+  }
+  video {
+    position: absolute;
+    width: 678px;
+    position: absolute;
+    left: 213px;
+    top: -45px;
+    z-index: 1;
   }
 }
 
 #contact-wrapper {
-  // background-color: $kettle-black-100;
+  background-color: $kettle-black-100;
   background: url(/img/contact-bg.svg) center center;
   background-size: cover;
   min-height: 325px;
@@ -62,7 +70,30 @@
 #how-reinsurance-works {
   box-shadow: 0px 3px 8px #00000010;
   background-color: $white !important;
+
   .wrapper {
     border-left: 1px dotted $kettle-gray-100;
+  }
+  .stage-step {
+    display: flex;
+    flex-direction: column;
+    img {
+      margin-bottom: 50px;
+    }
+  }
+  #step-1 {
+    margin-top: 200px;
+  }
+  #step-2 {
+    margin-top: 150px;
+  }
+  #step-3 {
+    margin-top: 100px;
+  }
+  #step-4 {
+    margin-top: 50px;
+  }
+  #step-5 {
+    margin-top: 0px;
   }
 }

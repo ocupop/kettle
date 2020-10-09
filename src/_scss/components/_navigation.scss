@@ -43,12 +43,7 @@
 
           #loginButton {
             background: rgb(185, 0, 110);
-            background: linear-gradient(
-              90deg,
-              rgba(185, 0, 110, 1) 0%,
-              rgba(233, 111, 115, 1) 53%,
-              rgba(254, 169, 115, 1) 100%
-            );
+            background: linear-gradient(90deg, $salmon, $yellow);
             color: $white;
             // margin-left: 20px;
           }

@@ -241,4 +241,13 @@
       display: none;
     }
   }
+  .iphone {
+    width: 400px;
+    height: 300px;
+    &__inner {
+      width: 367px;
+      padding-top: 26px;
+      padding-left: 28px;
+    }
+  }
 }

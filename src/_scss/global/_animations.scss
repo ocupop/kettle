@@ -27,7 +27,7 @@
   background-size: 100% 100%, 100% 200%;
   background-position: 0 0, 0 100%;
   background-origin: padding-box, border-box;
-  animation: highlight 10s infinite alternate;
+  animation: highlight 2s infinite alternate;
 }
 
 @keyframes highlight {
@@ -36,7 +36,7 @@
   }
 }
 
-@keyframes AnimationName {
+@keyframes ButtonColor {
   0% {
     background-position: 0% 50%;
   }

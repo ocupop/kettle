@@ -47,7 +47,7 @@ team_member:
           <strong>Balancing Risk in a Changing Climate.</strong>
         </h1>
       </div>
-      <div class="col-12 col-md-6 editable ">
+      <div class="col-11 col-md-6 editable ">
         <h2 class="my-4 pr-md-5">Kettle is building a smarter re/insurance model for protecting today&rsquo;s globalized world.</h2>
         <p class="my-3">Schedule a demo of our latest fire prediction model</p>
         <p><a class="btn" data-toggle="modal" data-target="#demoModal">Book a Demo</a></p>
@@ -315,26 +315,35 @@ team_member:
     </div>
 <div class="row">
 {% for member in page.team_member %}
-<div class="col-12   mb-5">
-    <div class="row mb-5 h-100  bg-white centered mx-3 mx-md-auto">
-
-          <div class="col-12 col-lg-4 px-0 h-100 d-none d-lg-flex {% cycle 'order-first','order-last' %}">
-              <div class="team-photo h-100 w-100">
-                <div class="h-100" style="background-image: url({{ member.image }});"></div>
-              </div>
-          </div>
-          <div class="col-12 col-lg-8 p-3 p-sm-5  team-bio h-100 w-100 centered flex-column align-items-baseline animated-border">
-                    <p class="title">{{ member.title }}</p>
-                    <h2>{{ member.name }}</h2>
-                    {{ member.bio_html }}
-
-          </div>
-
-
-
+    <div class="col-12   mb-5 d-flex d-lg-none">
+      <div class="row mb-5 h-lg-100  bg-white centered mx-3 mx-md-auto">
+            <div class="col-12 col-lg-4 px-0 h-lg-100 ">
+                <div class="team-photo h-100 w-100">
+                  <div class="h-lg-100" style="background-image: url({{ member.image }});"></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 p-3 p-sm-5  team-bio h-lg-100 w-100 centered flex-column align-items-baseline animated-border">
+                      <p class="title">{{ member.title }}</p>
+                      <h2>{{ member.name }}</h2>
+                      {{ member.bio_html }}
+            </div>
+      </div>
     </div>
+    <div class="col-12   mb-5 d-none d-lg-flex">
+      <div class="row mb-5 h-100  bg-white centered mx-3 mx-md-auto">
+            <div class="col-12 col-lg-4 px-0 h-100  {% cycle 'order-lg-first','order-lg-last' %}">
+                <div class="team-photo h-100 w-100">
+                  <div class="h-100" style="background-image: url({{ member.image }});"></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 p-3 p-sm-5  team-bio h-100 w-100 centered flex-column align-items-baseline animated-border">
+                      <p class="title">{{ member.title }}</p>
+                      <h2>{{ member.name }}</h2>
+                      {{ member.bio_html }}
+            </div>
+      </div>
     </div>
-    {% endfor %}
+  {% endfor %}
   </div>
 
   </div>

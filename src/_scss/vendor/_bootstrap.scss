@@ -11,9 +11,9 @@
   border: 0px;
   overflow: hidden;
   background: linear-gradient(270deg, $yellow, $salmon);
-  background-size: 400% 400%;
+  background-size: 200% 200%;
   &:hover {
-    animation: AnimationName 5s ease infinite;
+    animation: ButtonColor 2s ease infinite;
     transform: scale(1.05);
     box-shadow: 0 0px 0px 0 rgba(247, 109, 75, 0.65);
   }

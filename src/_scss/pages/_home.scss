@@ -102,25 +102,23 @@
 }
 .iphone {
   margin: 0 auto;
-  //opacity:0.2;
   perspective: 800px;
   background-image: url("/img/displays/kettle-header-desktop-display.png");
-  height: 600px;
-  width: 550px;
-  margin-left: -50px;
+  height: 635px;
+  width: 750px;
+  margin-left: -90px;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
   &__inner {
-    height: 287px;
-    width: 632px;
+    height: 331px;
+    width: 647px;
     position: relative;
-    margin-top: 84px;
-    margin-left: -77px;
+    margin-top: 96px;
+    margin-left: -47px;
     float: left;
-    // background: blue;
     transform-origin: center;
-    transform: rotate3d(-1.5, 5, -0.4, -33deg);
+    transform: rotate3d(-2.5, 7, -0.4, -29deg);
     img {
       display: none;
     }
@@ -152,16 +150,9 @@
 #how-reinsurance-works {
   box-shadow: 0px 3px 8px #00000010;
   background-color: $white !important;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  // .risk-wrapper {
-  //   background-image: url(/img/reinsurance/kettle-reinsurance-graphic-flow-line.svg);
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   background-position: center top;
-  // }
 }
 
 @media only screen and (min-width: 991px) {

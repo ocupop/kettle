@@ -133,6 +133,12 @@
   }
 }
 
+#value {
+  &:after {
+    content: "%";
+  }
+}
+
 #contact-wrapper {
   background-color: $kettle-black-100;
   background: url(/img/contact-bg.svg) center center;
@@ -153,6 +159,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  .risk-wrapper {
+    background-image: url(/img/backgrounds/lin-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+  }
 }
 
 @media only screen and (min-width: 991px) {
@@ -229,21 +240,6 @@
       margin-right: -50px;
       z-index: 1;
     }
-    // #step-1 {
-    //   padding-top: 100px;
-    // }
-    // #step-2 {
-    //   padding-top: 75px;
-    // }
-    // #step-3 {
-    //   padding-top: 50px;
-    // }
-    // #step-4 {
-    //   padding-top: 25px;
-    // }
-    // #step-5 {
-    //   padding-top: 0px;
-    // }
   }
 }
 @media only screen and (max-width: 767px) {
@@ -274,6 +270,11 @@
     margin-left: 50px;
     margin-top: -75px;
   }
+  #how-reinsurance-works {
+    .risk-wrapper {
+      background-position: -15px;
+    }
+  }
 }
 @media only screen and (max-width: 575px) {
   #intro-wrapper {
@@ -288,6 +289,11 @@
       width: 367px;
       padding-top: 26px;
       padding-left: 28px;
+    }
+  }
+  #how-reinsurance-works {
+    .risk-wrapper {
+      background-position: -40px;
     }
   }
 }

@@ -17,6 +17,3 @@ function renderComponentInElement(el) {
 var scroll = new SmoothScroll('a[href*="#"]');
 
 
-document
-  .querySelectorAll('.__react-component')
-  .forEach(renderComponentInElement)

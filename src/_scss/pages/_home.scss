@@ -63,7 +63,12 @@
   position: relative;
   margin: 0 auto;
 }
-.iphone {
+.project_mockup {
+  // padding: 4em 3em;
+  position: relative;
+  margin: 0 auto;
+}
+.tablet {
   margin: 0 auto;
   // perspective: 800px;
   background-image: url("/img/displays/kettle-tech-tablet-display.png");
@@ -89,6 +94,40 @@
     }
     video {
       border-radius: 10px;
+    }
+    video::-webkit-media-controls {
+      display: none;
+    }
+  }
+}
+.iphone {
+  margin: 0 auto;
+  //opacity:0.2;
+  perspective: 800px;
+  background-image: url("/img/displays/kettle-header-desktop-display.png");
+  height: 600px;
+  width: 550px;
+  margin-left: -50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  &__inner {
+    height: 287px;
+    width: 632px;
+    position: relative;
+    margin-top: 84px;
+    margin-left: -77px;
+    float: left;
+    // background: blue;
+    transform-origin: center;
+    transform: rotate3d(-1.5, 5, -0.4, -33deg);
+    img {
+      display: none;
+    }
+    video,
+    img {
+      height: 100%;
+      width: 100%;
     }
     video::-webkit-media-controls {
       display: none;
@@ -162,7 +201,7 @@
       }
     }
   }
-  .iphone {
+  .tablet {
     width: 1000px;
     height: 800px;
     &__inner {
@@ -218,6 +257,12 @@
 }
 @media only screen and (max-width: 767px) {
   #intro-wrapper {
+    h1 {
+      font-size: 1.75rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+    }
     #comp-wrapper {
       img {
         top: -24px;
@@ -241,7 +286,7 @@
       display: none;
     }
   }
-  .iphone {
+  .tablet {
     width: 400px;
     height: 300px;
     &__inner {

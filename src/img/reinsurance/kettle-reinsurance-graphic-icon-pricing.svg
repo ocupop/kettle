@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151.38" height="152.693" viewBox="0 0 151.38 152.693">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133.504" height="133.504" viewBox="0 0 133.504 133.504">
   <defs>
-    <filter id="Ellipse_35" x="0" y="0.211" width="151.38" height="152.482" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_35" x="0" y="0" width="133.504" height="133.504" filterUnits="userSpaceOnUse">
       <feOffset dy="1.5" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-color="#454545" flood-opacity="0.059"/>
@@ -12,21 +12,21 @@
       <stop offset="1" stop-color="#fdd95f"/>
     </linearGradient>
   </defs>
-  <g id="Group_243" data-name="Group 243" transform="translate(0.926)">
-    <g transform="matrix(1, 0, 0, 1, -0.93, 0)" filter="url(#Ellipse_35)">
-      <ellipse id="Ellipse_35-2" data-name="Ellipse 35" cx="66.69" cy="67.241" rx="66.69" ry="67.241" transform="translate(9 7.71)" fill="#fff"/>
+  <g id="Group_178" data-name="Group 178" transform="translate(2.043 0.855)">
+    <g transform="matrix(1, 0, 0, 1, -2.04, -0.86)" filter="url(#Ellipse_35)">
+      <ellipse id="Ellipse_35-2" data-name="Ellipse 35" cx="57.752" cy="57.752" rx="57.752" ry="57.752" transform="translate(9 7.5)" fill="#fff"/>
     </g>
     <g id="Group_155" data-name="Group 155" transform="translate(0 0)">
       <g id="Group_108" data-name="Group 108" transform="translate(0 0)">
-        <ellipse id="Ellipse_31" data-name="Ellipse 31" cx="54.526" cy="55.122" rx="54.526" ry="55.122" transform="translate(0 94.443) rotate(-60)" fill="url(#linear-gradient)"/>
+        <ellipse id="Ellipse_31" data-name="Ellipse 31" cx="47.192" cy="47.708" rx="47.192" ry="47.708" transform="translate(0 81.74) rotate(-60)" fill="url(#linear-gradient)"/>
       </g>
-      <g id="Group_173" data-name="Group 173" transform="translate(35.762 35.402)">
+      <g id="Group_173" data-name="Group 173" transform="translate(31.101 30.789)">
         <g id="Group_172" data-name="Group 172" transform="translate(0 0)">
-          <circle id="Ellipse_44" data-name="Ellipse 44" cx="39.095" cy="39.095" r="39.095" fill="#fff" opacity="0.1" style="isolation: isolate"/>
-          <circle id="Ellipse_45" data-name="Ellipse 45" cx="27.597" cy="27.597" r="27.597" transform="translate(11.499 11.499)" fill="#fff" opacity="0.2" style="isolation: isolate"/>
-          <circle id="Ellipse_46" data-name="Ellipse 46" cx="16.098" cy="16.098" r="16.098" transform="translate(22.997 22.997)" fill="#fff" style="isolation: isolate"/>
+          <circle id="Ellipse_44" data-name="Ellipse 44" cx="33.687" cy="33.687" r="33.687" fill="#fff" opacity="0.1" style="isolation: isolate"/>
+          <circle id="Ellipse_45" data-name="Ellipse 45" cx="23.779" cy="23.779" r="23.779" transform="translate(9.908 9.908)" fill="#fff" opacity="0.2" style="isolation: isolate"/>
+          <circle id="Ellipse_46" data-name="Ellipse 46" cx="13.871" cy="13.871" r="13.871" transform="translate(19.816 19.816)" fill="#fff" style="isolation: isolate"/>
         </g>
-        <path id="Path_154" data-name="Path 154" d="M2603.382,5318.264l3.745,3.745,8.186-8.186" transform="translate(-2570.252 -5278.821)" fill="none" stroke="#fea973" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.61"/>
+        <path id="Path_154" data-name="Path 154" d="M2603.382,5317.65l3.227,3.227,7.054-7.053" transform="translate(-2574.835 -5283.663)" fill="none" stroke="#fea973" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.61"/>
       </g>
     </g>
   </g>

@@ -149,6 +149,9 @@
 @media only screen and (min-width: 991px) {
   #how-reinsurance-works {
     background-image: url(/img/backgrounds/risk-bg.svg);
+    img {
+      margin-left: -50px;
+    }
     #step-1 {
       padding-top: 100px;
       // margin-bottom: 0px;

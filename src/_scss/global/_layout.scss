@@ -1,5 +1,6 @@
 #pageHeader {
 }
+
 #pageContent {
 }
 #pageFooter {
@@ -32,6 +33,19 @@
         }
         &:hover:before {
           transform: translateX(0);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #pageHeader {
+    .container {
+      max-width: 900px;
+      #mainnav {
+        .navbar-brand {
+          margin: 0 15px;
         }
       }
     }

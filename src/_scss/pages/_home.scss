@@ -38,20 +38,21 @@
 
 #kettle-tablet-wrapper {
   position: relative;
-  padding: 40% 0;
+  padding: 20px 0;
   #kettle-tablet {
     position: absolute;
-    width: 800px;
-    top: -100px;
-    right: -50%;
+    // width: 800px;
+    // top: -100px;
+    // right: -50%;
+    z-index: 1;
   }
   video {
     position: absolute;
-    width: 678px;
-    position: absolute;
-    left: 213px;
-    top: -45px;
-    z-index: 1;
+    max-width: 100%;
+    height: auto;
+    left: 47px;
+    top: 62px;
+    z-index: 0;
   }
 }
 

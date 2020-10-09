@@ -213,28 +213,10 @@
 
 .btn-orange {
   background-color: $yellow !important;
-  &:hover {
-    transform: translateY(-10px) !important;
-  }
-  &:before {
-    background: rgb(254, 169, 115) !important;
-    background: linear-gradient(
-      0deg,
-      rgba(254, 169, 115, 1) 0%,
-      rgba(233, 111, 115, 1) 26%,
-      rgba(233, 111, 115, 1) 73%,
-      rgba(254, 169, 115, 1) 100%
-    ) !important;
-    transform: translateY(-100%) !important;
-    // opacity: 1 !important;
-  }
-  &:hover:before {
-    transform: translateY(100%) !important;
-  }
 }
 
-.text-large {
-  font-size: 3rem;
+.text-xl {
+  font-size: 5rem;
   font-weight: 600;
 }
 
@@ -244,24 +226,48 @@
   align-items: center;
 }
 
-.team-wrapper {
-  display: flex;
-  justify-content: center;
-  box-shadow: 0px 2px 6px #76767629;
-
-  .team-photo {
-    background-image: url(/img/images/team-headshot-andrew.jpg);
+.team-photo {
+  div {
     background-position: center center;
-    min-width: 350px;
-    min-height: 350px;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .bio-wrapper {
-    border-top: 5px solid orange;
-
-    .team-bio {
-      padding: 30px;
-    }
+    min-height: 300px;
+    min-width: 300px;
   }
 }
+
+.team-bio {
+  // border-top: 6px solid $yellow;
+  border-top: 6px solid transparent;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(white, white), linear-gradient(270deg, #00d7b9, #b95dd7 50%, #ffb367 100%);
+  background-repeat: no-repeat;
+  background-origin: padding-box, border-box;
+  .title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: $salmon;
+    margin-bottom: 0px;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+// .team-wrapper {
+//   display: flex;
+//   justify-content: center;
+//   box-shadow: 0px 2px 6px #76767629;
+
+//   .bio-wrapper {
+//     border-top: 5px solid orange;
+
+//     .team-bio {
+//       padding: 30px;
+//     }
+//   }
+// }

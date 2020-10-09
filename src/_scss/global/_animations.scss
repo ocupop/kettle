@@ -13,10 +13,37 @@
 }
 
 .card {
-    // Loop through the cards and delay the loading animation.
+  // Loop through the cards and delay the loading animation.
   @for $i from 1 through 20 {
     &:nth-child(#{$i}) {
-      @include animation(cardSlideIn, .8s, .1s * $i);
+      @include animation(cardSlideIn, 0.8s, 0.1s * $i);
     }
+  }
+}
+
+.animated-border {
+  background-image: linear-gradient(white, white), linear-gradient(180deg, $salmon, $yellow 50%, $salmon);
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 100% 200%;
+  background-position: 0 0, 0 100%;
+  background-origin: padding-box, border-box;
+  animation: highlight 10s infinite alternate;
+}
+
+@keyframes highlight {
+  100% {
+    background-position: 0 0, 0 0;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }

@@ -14,8 +14,7 @@ socialshare:
     image:
 
 # Google Analytics
-analytics:
-  default:
+analytics_code: UA-106357720-15
 
 
 # Collections
